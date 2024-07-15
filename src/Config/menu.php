@@ -7,5 +7,8 @@ return [
         'route'      => 'admin.sales.bookings.index',
         'sort'       => 6,
         'icon-class' => '',
+    //Ниже костыль для исправления ошибки
+        'icon'       => 'icon-settings',
+        'icon-class' => 'settings-icon',
     ],
 ];
